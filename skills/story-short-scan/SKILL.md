@@ -182,7 +182,14 @@ description: |
 
 ---
 
-> 📚 深度参考：知识库/Skill知识包/short-scan_短篇市场数据.md
+## 参考资料
+
+按需加载以下文件：
+
+| 文件 | 何时加载 |
+|------|----------|
+| [references/short-story-market-data.md](references/short-story-market-data.md) | 需要跨平台真实数据对比时 |
+| [knowledge-base short-scan](../../知识库/Skill知识包/short-scan_短篇市场数据.md) | 深度市场分析时 |
 
 ---
 
