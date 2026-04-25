@@ -6,36 +6,41 @@
 
 ## 如何安装
 
-#### Claude Code
-
-```bash
-claude plugin marketplace add worldwonderer/oh-story-claudecode
-claude plugin install story@oh-story-skills
-```
-
-#### 通用安装方式
-
 ```bash
 npx skills add worldwonderer/oh-story-claudecode
 ```
+
+安装后 7 个 skill 会自动注册到 Claude Code、Cursor、Copilot 等支持的编辑器。
 
 ## 如何更新
 
-#### Claude Code 插件市场安装的用户
-
-```bash
-claude plugin marketplace update oh-story-skills
-claude plugin update story@oh-story-skills
-/reload-plugins
-```
-
-#### 通过 `npx skills add` 安装的用户
-
-重新运行一次同样的命令即可：
+重新运行一次安装命令即可：
 
 ```bash
 npx skills add worldwonderer/oh-story-claudecode
 ```
+
+## 在 Claude Code 会话中使用
+
+在 Claude Code 对话中直接输入斜杠命令触发对应 skill：
+
+| 命令 | 用途 |
+|---|---|
+| `/story-long-scan` | 长篇扫榜 |
+| `/story-long-analyze` | 长篇拆文 |
+| `/story-long-write` | 长篇写作 |
+| `/story-short-scan` | 短篇扫榜 |
+| `/story-short-analyze` | 短篇拆文 |
+| `/story-short-write` | 短篇写作 |
+| `/story-deslop` | 去AI味 |
+
+也可以用自然语言触发，例如：
+
+- 「帮我开书」→ `story-long-write`
+- 「扫个榜看看什么火」→ `story-long-scan`
+- 「拆一下黄金三章」→ `story-long-analyze`
+- 「写一篇知乎盐言」→ `story-short-write`
+- 「这篇太AI了」→ `story-deslop`
 
 ---
 
