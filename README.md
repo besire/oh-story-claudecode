@@ -22,8 +22,16 @@ flowchart LR
 
 ## 安装
 
+把仓库地址喂给 Claude Code 或 OpenClaw，说「安装这个 skill」就行：
+
+```
+https://github.com/worldwonderer/oh-story-claudecode
+```
+
+或者用命令行：
+
 ```bash
-npx skills add worldwonderer/oh-story-claudecode
+npx skills add worldwonderer/oh-story-claudecode -y
 ```
 
 更新时重新执行同一条命令即可。

@@ -87,6 +87,16 @@
       "category": "novel-polish",
       "keywords": ["de-ai", "humanize", "deslop", "去AI味", "润色", "去味", "chinese"],
       "skills": ["./skills/story-deslop"]
+    },
+    {
+      "name": "browser-cdp",
+      "description": "浏览器操控。通过 CDP 协议控制 Chrome，复用已有登录态，执行浏览器自动化操作。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "browser-automation",
+      "keywords": ["browser", "cdp", "chrome", "agent-browser", "浏览器", "登录态", "automation"],
+      "skills": ["./skills/browser-cdp"]
     }
   ]
 }
