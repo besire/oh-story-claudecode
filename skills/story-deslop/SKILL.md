@@ -213,8 +213,6 @@ AI写作的结尾特征：总想总结、升华、点题。
 | [references/banned-words.md](references/banned-words.md) | 检测和替换禁用词时 |
 | [../story-long-write/references/anti-ai-writing.md](../story-long-write/references/anti-ai-writing.md) | **去AI味完整指南**：预防+三遍法+范例 |
 
-> 📚 深度参考：知识库/Skill知识包/deslop_去AI味方法论.md
-
 ---
 
 ## 下一步建议

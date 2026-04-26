@@ -198,8 +198,6 @@ description: |
 |------|----------|
 | [references/real-market-data.md](references/real-market-data.md) | **核心参考**：跨平台写作差异对照表、各平台简介公式速查、题材爆款公式速查表、各平台写作特征 |
 
-> 📚 深度参考：知识库/Skill知识包/short-write_短篇写作框架.md
-
 ---
 
 ## 语言

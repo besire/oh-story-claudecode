@@ -227,14 +227,13 @@ description: |
 | [references/deconstruction-examples.md](references/deconstruction-examples.md) | 学习拆文方法时（3 个完整案例） |
 | [references/zhihu-style.md](references/zhihu-style.md) | 分析知乎盐言故事时 |
 | [../story-long-write/references/hook-techniques.md](../story-long-write/references/hook-techniques.md) | 分析钩子设计时，段落级+章级完整钩子 |
+| [../story-long-write/references/opening-design.md](../story-long-write/references/opening-design.md) | 分析开头设计时，黄金一章+开头模板 |
 | [../story-long-write/references/genre-frameworks-unified.md](../story-long-write/references/genre-frameworks-unified.md) | 拆解特定题材时，短篇视角 |
 | [../story-long-write/references/character-design.md](../story-long-write/references/character-design.md) | 深度分析人物设计+关系+动机链时 |
 | [../story-long-write/references/quality-checklist.md](../story-long-write/references/quality-checklist.md) | 评估质量时，通用+短篇专项 |
 
 > **深度数据参考**：`../story-short-write/references/genre-writing-formulas.md`（21大题材写作公式，含玄幻仙侠/年代重生/宫闱宅斗/现代悬疑等）
 > **市场数据参考**：`../story-short-scan/references/real-market-data.md`（跨平台写作差异对照表、爆款公式速查表）
-
-> 📚 深度参考：知识库/Skill知识包/short-analyze_短篇拆文方法论.md
 
 ---
 

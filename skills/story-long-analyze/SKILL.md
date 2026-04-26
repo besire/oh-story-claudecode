@@ -235,12 +235,12 @@ description: |
 | 文件 | 何时加载 |
 |------|----------|
 | [references/material-decomposition.md](references/material-decomposition.md) | 系统拆解一本完整小说时（5阶段拆解流程） |
-| [../story-long-write/references/genre-frameworks-unified.md](../story-long-write/references/genre-frameworks-unified.md) | 拆解特定题材时，长篇视角 |
+| [references/deconstruction-notes.md](references/deconstruction-notes.md) | 拆书方法+影视拆解+抽象拆解法+题材实战拆解 |
+| [../story-long-write/references/genre-frameworks-unified.md](../story-long-write/references/genre-frameworks-unified.md) | 拆解特定题材时，题材框架+核心梗解析 |
 | [../story-long-write/references/character-design.md](../story-long-write/references/character-design.md) | 深度分析人物设计+关系+动机链时 |
-| [../story-long-write/references/hook-techniques.md](../story-long-write/references/hook-techniques.md) | 分析钩子设计时 |
-| [../story-long-write/references/quality-checklist.md](../story-long-write/references/quality-checklist.md) | 评估质量时，通用+长篇专项 |
-
-> 📚 深度参考：知识库/Skill知识包/long-analyze_拆文方法论.md
+| [../story-long-write/references/hook-techniques.md](../story-long-write/references/hook-techniques.md) | 分析钩子+悬念设计时 |
+| [../story-long-write/references/opening-design.md](../story-long-write/references/opening-design.md) | 分析开篇设计时 |
+| [../story-long-write/references/quality-checklist.md](../story-long-write/references/quality-checklist.md) | 评估质量+毒点排查 |
 
 ---
 

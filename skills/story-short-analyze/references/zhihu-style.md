@@ -1,6 +1,6 @@
 # 知乎盐言故事风格识别
 
-> 完整格式规范见 story-short-write 的 [zhihu-format.md](../../story-short-write/references/zhihu-format.md)。本文聚焦于分析/识别知乎盐言风格的写作特征。
+> 本文聚焦于分析/识别知乎盐言风格的写作特征。
 
 ## 知乎盐言的核心风格特征
 

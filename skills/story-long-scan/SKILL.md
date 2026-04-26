@@ -59,10 +59,9 @@ description: |
 - 七猫：搜索「七猫小说 排行榜 {当前年月}」
 
 **浏览器操控（高级模式）：**
-- 如果可用 agent-browser CLI，通过 CDP 连接 Chrome 获取平台数据
-- 示例：`agent-browser --cdp 9222 open "https://www.qidian.com/rank/"`
-- 可复用用户已登录的 Chrome session，获取完整榜单数据
+- 使用 `/browser-cdp` 启动 CDP Chrome 环境，直接抓取平台页面数据
 - 适用于需要登录才能看到的数据（起点个人中心、晋江收藏等）
+- 可复用用户已登录的 Chrome session，获取完整榜单数据
 
 **用户提供操作指引：**
 - 请用户截图或复制粘贴榜单内容
@@ -203,8 +202,7 @@ description: |
 |------|----------|
 | [references/reader-profiling.md](references/reader-profiling.md) | 需要分析目标读者画像时 |
 | [references/genre-trends.md](references/genre-trends.md) | 查看当前题材趋势和切入建议时 |
-
-> 📚 深度参考：知识库/Skill知识包/long-write_长篇写作框架.md
+| [references/publishing-guide.md](references/publishing-guide.md) | 投稿审核+推荐安排+平台福利+封面/书名/简介设计 |
 
 ---
 
