@@ -9,15 +9,34 @@ description: "Use this skill when you need to control a Chrome browser via CDP (
 
 ## 前置条件
 
-- macOS，已安装 Google Chrome
+- 已安装 Google Chrome 或 Chromium
 - `agent-browser` 命令行工具已安装
+- 需要复用登录态时，优先使用独立调试用户目录，避免影响日常浏览器
 
 ---
 
 ## 第一步：启动 CDP Chrome 环境
 
+先判断当前系统，再选择启动方式。
+
+### macOS
+
 ```bash
 bash {SKILL_DIR}/scripts/setup_cdp_chrome.sh 9222
+```
+
+### Windows PowerShell
+
+```powershell
+$chrome = "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe"
+if (-not (Test-Path $chrome)) { $chrome = "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe" }
+Start-Process $chrome -ArgumentList "--remote-debugging-port=9222 --user-data-dir=$env:TEMP\agent-browser-cdp"
+```
+
+### Windows Bash / Git Bash
+
+```bash
+"/c/Program Files/Google/Chrome/Application/chrome.exe" --remote-debugging-port=9222 --user-data-dir="$TEMP/agent-browser-cdp" >/dev/null 2>&1 &
 ```
 
 成功后所有 `agent-browser` 命令带 `--cdp 9222`。
